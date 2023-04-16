@@ -1,3 +1,4 @@
 /target
-routes.db
+/routes.db
 /config.json
+/.idea

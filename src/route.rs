@@ -40,7 +40,6 @@ pub async fn get_route(db_name: &String, api_key: &str, routes: Vec<data::RouteC
             db_connection.execute(query).unwrap();
         }
 
-        println!("Sleeping for 5 minutes");
         sleep(Duration::from_secs(60 * 5)).await;
     }
 }

@@ -1,0 +1,89 @@
+{
+  "api_key": "<api-key-to-google-maps>",
+  "routes": [
+    {
+      "name": "<name1>",
+      "request": {
+      "origin": {
+        "location": {
+          "latLng": {
+            "latitude": 11,
+            "longitude": 11
+          }
+        }
+      },
+      "destination": {
+        "location": {
+          "latLng": {
+            "latitude": 14,
+            "longitude": 14
+          }
+        }
+      },
+      "intermediates": [
+        {
+          "via": true,
+          "location": {
+            "latLng": {
+              "latitude": 12,
+              "longitude": 12
+            }
+          }
+        }
+      ],
+      "travelMode": "DRIVE",
+      "routingPreference": "TRAFFIC_AWARE",
+      "computeAlternativeRoutes": false,
+      "routeModifiers": {
+        "avoidTolls": false,
+        "avoidHighways": false,
+        "avoidFerries": false
+      },
+      "languageCode": "en-US",
+      "units": "METRIC"
+    }
+    },
+    {
+      "name": "<name1>",
+      "request": {
+        "origin": {
+          "location": {
+            "latLng": {
+              "latitude": 11,
+              "longitude": 11
+            }
+          }
+        },
+        "destination": {
+          "location": {
+            "latLng": {
+              "latitude": 14,
+              "longitude": 14
+            }
+          }
+        },
+        "intermediates": [
+          {
+            "via": true,
+            "location": {
+              "latLng": {
+                "latitude": 13,
+                "longitude": 13
+              }
+            }
+          }
+        ],
+        "travelMode": "DRIVE",
+        "routingPreference": "TRAFFIC_AWARE",
+        "computeAlternativeRoutes": false,
+        "routeModifiers": {
+          "avoidTolls": false,
+          "avoidHighways": false,
+          "avoidFerries": false
+        },
+        "languageCode": "en-US",
+        "units": "METRIC"
+      }
+    }
+  ]
+}
